@@ -1,1 +1,44 @@
-
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"App név"</string>
+    <string name="title_activity_main">"title_activity_main"</string>
+    <string name="navigation_drawer_open">"navigation_drawer_open"</string>
+    <string name="navigation_drawer_close">"navigation_drawer_close"</string>
+    <string name="nav_header_title">"nav_header_title"</string>
+    <string name="nav_header_subtitle">"nav_header_subtitle"</string>
+    <string name="nav_header_desc">"nav_header_desc"</string>
+    <string name="action_settings">"action_settings"</string>
+    <string name="menu_home">"menü_home"</string>
+    <string name="menu_gallery">"menü_galéria"</string>
+    <string name="menu_slideshow">"menu_slideshow"</string>
+    <string name="home_second">"home_second"</string>
+    <string name="category">"kategória"</string>
+    <string name="search">"keresés"</string>
+    <string name="your_downloads">"your_downloads"</string>
+    <string name="exit">"kijárat"</string>
+    <string name="downloads">"letöltések"</string>
+    <string name="select_an_option">"Válassz egy lehetőséget"</string>
+    <string name="search_a_book">"keresés_könyv"</string>
+    <string name="edit_txt_search_hint">"edit_txt_search_hint"</string>
+    <string name="txt_dialog_exit_title">"txt_dialog_exit_title"</string>
+    <string name="are_you_sure">"biztos vagy ebben"</string>
+    <string name="yes">"Igen"</string>
+    <string name="no">"nem"</string>
+    <string name="confirm">"megerősít"</string>
+    <string name="txt_exit_confirmation">"txt_exit_confirmation"</string>
+    <string name="pages">"oldalakat"</string>
+    <string name="year">"év"</string>
+    <string name="size">"méret"</string>
+    <string name="total_downloads">"összes_letöltés"</string>
+    <string name="author">"szerző"</string>
+    <string name="download">"Letöltés"</string>
+    <string name="language">"nyelv"</string>
+    <string name="info_not_available">"info_not_available"</string>
+    <string name="no_downloads_available">"no_downloads_available"</string>
+    <string name="share_book">"share_book"</string>
+    <string name="delete_book">"delete_book"</string>
+    <string name="discover_more">"Fedezz fel többet"</string>
+    <string name="ad_unit_id_banner">"ad_unit_id_banner"</string>
+    <string name="ad_unit_id_interstitial">"ad_unit_id_interstitial"</string>
+    <string name="ad_unit_reward">"ad_unit_reward"</string>
+</resources>
