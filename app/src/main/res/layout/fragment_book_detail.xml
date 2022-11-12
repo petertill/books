@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/txt_size"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.category.CategoryFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/ad_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="100dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/material_card_download"></LinearLayout>
+
+        <ImageView
+            android:id="@+id/img_book_cover"
+            android:layout_width="180dp"
+            android:layout_height="220dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/side_nav_bar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txt_book_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:text="Anger Issue Management"
+            android:textAlignment="center"
+            android:textColor="@color/text_color_black"
+            android:textSize="@dimen/big_text_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_book_cover" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pages"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/medium_text_size"
+            app:layout_constraintBottom_toBottomOf="@+id/txt_pages_of_book"
+            app:layout_constraintStart_toStartOf="@+id/textView18"
+            app:layout_constraintTop_toTopOf="@+id/txt_pages_of_book" />
+
+        <TextView
+            android:id="@+id/txt_pages_of_book"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:text="TextView"
+            android:textAlignment="viewEnd"
+            android:textColor="@color/text_color_black"
+            android:textSize="@dimen/medium_text_size"
+            app:layout_constraintEnd_toEndOf="@+id/txt_book_language"
+            app:layout_constraintStart_toEndOf="@+id/textView"
+            app:layout_constraintTop_toBottomOf="@+id/txt_book_language" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/year"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/medium_text_size"
+            app:layout_constraintBottom_toBottomOf="@+id/txt_year"
+            app:layout_constraintStart_toStartOf="@+id/textView"
+            app:layout_constraintTop_toTopOf="@+id/txt_year" />
+
+        <TextView
+            android:id="@+id/txt_year"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:text="TextView"
+            android:textAlignment="viewEnd"
+            android:textColor="@color/text_color_black"
+            android:textSize="@dimen/medium_text_size"
+            app:layout_constraintEnd_toEndOf="@+id/txt_pages_of_book"
+            app:layout_constraintStart_toEndOf="@+id/textView9"
+            app:layout_constraintTop_toBottomOf="@+id/txt_pages_of_book" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/size"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/medium_text_size"
+            app:layout_constraintBottom_toBottomOf="@+id/txt_book_size"
+            app:layout_constraintStart_toStartOf="@+id/textView9"
+            app:layout_constraintTop_toTopOf="@+id/txt_book_size" />
+
+        <TextView
+            android:id="@+id/txt_book_size"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:text="TextView"
+            android:textAlignment="viewEnd"
+            android:textColor="@color/text_color_black"
+            android:textSize="@dimen/medium_text_size"
+            app:layout_constraintEnd_toEndOf="@+id/txt_year"
+            app:layout_constraintStart_toEndOf="@+id/textView11"
+            app:layout_constraintTop_toBottomOf="@+id/txt_year" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/total_downloads"
+            android:textSize="@dimen/medium_text_size"
+            android:textColor="@color/colorPrimary"
+            app:layout_constraintBottom_toBottomOf="@+id/txt_downloads"
+            app:layout_constraintStart_toStartOf="@+id/textView11"
+            app:layout_constraintTop_toTopOf="@+id/txt_downloads" />
+
+        <TextView
+            android:id="@+id/txt_downloads"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:text="TextView"
+            android:textAlignment="viewEnd"
+            android:textColor="@color/text_color_black"
+            android:textSize="@dimen/medium_text_size"
+            app:layout_constraintEnd_toEndOf="@+id/txt_book_size"
+            app:layout_constraintStart_toEndOf="@+id/textView13"
+            app:layout_constraintTop_toBottomOf="@+id/txt_book_size" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/author"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/medium_text_size"
+            app:layout_constraintBottom_toBottomOf="@+id/txt_author"
+            app:layout_constraintStart_toStartOf="@+id/textView13"
+            app:layout_constraintTop_toTopOf="@+id/txt_author" />
+
+        <TextView
+            android:id="@+id/txt_author"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:text="TextView"
+            android:textAlignment="viewEnd"
+            android:textColor="@color/text_color_black"
+            android:textSize="@dimen/medium_text_size"
+            app:layout_constraintEnd_toEndOf="@+id/txt_downloads"
+            app:layout_constraintStart_toEndOf="@+id/textView15"
+            app:layout_constraintTop_toBottomOf="@+id/txt_downloads" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/material_card_download"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            app:cardBackgroundColor="@color/colorPrimary"
+            app:cardElevation="4dp"
+            app:layout_constraintEnd_toEndOf="@+id/txt_book_title"
+            app:layout_constraintStart_toStartOf="@+id/txt_book_title"
+            app:layout_constraintTop_toBottomOf="@+id/txt_author">
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:text="@string/download"
+                android:textColor="@color/text_color_white"
+                android:textSize="@dimen/big_text_size" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/language"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/medium_text_size"
+            app:layout_constraintBottom_toBottomOf="@+id/txt_book_language"
+            app:layout_constraintStart_toStartOf="@+id/txt_book_title"
+            app:layout_constraintTop_toTopOf="@+id/txt_book_language" />
+
+        <TextView
+            android:id="@+id/txt_book_language"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="8dp"
+            android:text="TextView"
+            android:textAlignment="viewEnd"
+            android:textColor="@color/text_color_black"
+            android:textSize="@dimen/medium_text_size"
+            app:layout_constraintEnd_toEndOf="@+id/txt_book_title"
+            app:layout_constraintStart_toEndOf="@+id/textView18"
+            app:layout_constraintTop_toBottomOf="@+id/txt_book_title" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
